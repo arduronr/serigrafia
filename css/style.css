@@ -536,6 +536,10 @@ footer a{
 	color: #fff!important;
    
 }
+footer li{
+	font-size: 26px;
+	margin: 0 1px;
+}
 #soporte h2{
 	text-align:center;
 	margin-bottom:5%;

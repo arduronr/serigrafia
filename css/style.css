@@ -1,0 +1,574 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,500,600,700');
+@font-face{
+	font-family: "Agenda Bold";
+	src:url("../fonts/Agenda Bold.TTF");
+}
+body{
+	font-family: 'EB Garamond', serif;
+font-weight: 600;
+	font-size: 14px;
+	color: #212529;
+    background-color: #AFAFAF;
+}
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.header-area.sticky .navbar-default{
+	background-color: #000;
+}
+header{
+	background-color: #000;
+	
+	text-align: center;
+}
+* {box-sizing: border-box;}
+#sobre-mi{
+    background-image: url("../img/fondo mi.png");
+    
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+#hero{
+	background-image: url("../img/silk.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 100px 0;
+	color: #000;
+	text-align: center;
+		filter: grayscale(100%);
+}
+#hero2{
+	background-image: url("../img/racero.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 100px 0;
+	color: #FFFFFF;
+	text-align: center;
+		filter: grayscale(25%);
+}
+#hero3{
+	background-image: url("../img/venta.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 100px 0;
+	color: #000;
+	text-align: center;
+		filter: grayscale(100%);
+}
+#hero h1,
+#slides h1{
+	font-size: 60px;
+	font-weight: 700;
+} 
+#hero2 h1,
+#slides h1{
+	font-size: 60px;
+	font-weight: 700;
+} 
+#hero3 h1,
+#slides h1{
+	font-size: 60px;
+	font-weight: 700;
+} 
+#hero h2,
+#slides h2{
+	font-size: 24px;
+	margin-top: 40px;
+	margin-bottom: 50px;
+	color: #cacaca;
+} 
+#hero2 h2,
+#slides h2{
+	font-size: 24px;
+	margin-top: 40px;
+	margin-bottom: 50px;
+	color: #cacaca;
+}
+
+#hero .btn,
+#products,#products2,#products3,#products4,#products6{
+	background-color: #000;
+	color: #fff;
+}
+#hero .btn,
+
+#products8 article .row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+#products8 .column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 35%;
+  max-width: 60%;
+  padding: 0 4px;
+}
+
+#products8 .column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 1000px) {
+  .column {
+    -ms-flex: 80%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+#products8{
+	background-color: #000;
+	color: #fff;
+}
+#products7 .title{
+	text-align: left!important ;
+	color: #fff;
+}
+#products8 .title{
+	text-align: left!important ;
+	color: #fff;
+}
+#products5 .title{
+	text-align: left!important ;
+	color: #fff;
+}
+#products6 .title{
+	text-align: left!important ;
+	color: #fff;
+}
+#products .title{
+	text-align: left!important ;
+	color: #fff;
+}
+#products2 .title{
+	text-align: left!important ;
+	color: #fff;
+}
+#products3 .title{
+	text-align: left!important ;
+	color: #fff;
+}
+#products4 .title{
+	text-align: left!important ;
+	color: #fff;
+}
+#products3 .title{
+margin-left: 25px;
+}
+#products8 .title{
+margin-left: 25px;
+}
+#products8 h2{
+margin-top: 15px;
+}
+#products,#products2,#products3,#products4,#products5,#products6,#products7.subtitle{
+	text-align: left;
+	color: #d2d2d2;
+	font-size: 18px;
+}
+
+
+#what{
+	text-align: center;
+	padding: 80px 0;
+}
+hr {
+  height: 4px;
+  background-color:#ED891E;
+}
+#what h3{
+	font-size: 18px;
+	margin-bottom: 3%;
+
+}
+#what article h4{
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #303132;
+	letter-spacing: 1px;
+	margin-top: 15%;
+	margin-bottom: 10%;
+	
+}
+
+#what p{
+	text-align: justify;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+#what img{
+	width: 100%;
+	height: 240px;
+	margin-bottom: 10%;
+}
+.centrado{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#quieres{
+	color: #FFFFFF;
+	padding: 25px 0;
+	text-align: center;
+	text-transform: uppercase;
+	font-family:"Britannic Bold";
+}
+
+
+
+#hote{
+	
+	background-position: center;
+	text-align: center;
+	background-image:url("../img/que-es-serigrafia.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #FFFFFF;
+	padding: 15%;
+	
+		}
+#servicios h2{
+	text-align:center;
+	margin-bottom:5%;
+    Color:#fff;
+}
+
+
+#servicios{
+	background-color: #2B2F33;
+}
+#video{
+	padding: 20px 0;
+}
+#video h2{
+	font-size: 40px!important;
+}
+
+#videos{
+	padding: 20px 0;
+}
+#videos h2{
+	font-size: 25px!important;
+}
+#servicios article{
+	Margin-top:10px;
+}
+
+#servicios h3{
+	color: #fff;
+	font-size: 18px;
+    font-family: "Agenda Bold";
+}
+#more{
+display:none;
+}
+#servicios p,li{
+	font-size: 16px;
+    color: #fff;
+}
+
+hr {
+  height: 4px;
+  background-color:#ED891E;
+}
+
+
+#servicios i{
+	font-size: 32px;
+	color: #fff;
+text-align: center;
+}
+
+#servicios .row{
+	margin-bottom: 3%;
+}
+.subtitles{
+	color: #ED891E!important;
+    font-size: 16px;
+ 
+
+   
+}
+.containerr {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+    overflow: hidden;
+      justify-content: center;
+  align-items: center;
+}
+#mybtn{
+	background:hsla(0,0%,0%,0.00);
+	border-color: aliceblue;
+}
+#mybtn1,.btns{
+	background:hsla(0,0%,0%,0.00);
+margin-right: 2px;
+	border-color:transparent;
+	margin-top: -30px;
+}
+.im,.containerr {
+    text-align: justify;
+  position: relative;
+  width: 60%;
+  max-width: 30%;
+  margin: 5% 35%;
+  
+  
+}
+.containers h2{
+    text-align: center;
+  border-top: 5px solid #fff;
+ border-bottom: 5px solid #fff;
+ margin:0 35%;
+}
+.image {
+  width: 100%;
+  height:auto;
+    
+  
+}
+
+.overlay {
+    
+   
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+ 
+  width: 92.5%;
+  transition: 1s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.im:hover .overlay {
+  opacity: 1;
+}
+.seccion{ padding:5% 0;}
+.titulo,.title{
+    font-family: "Agenda Bold";
+    font-size: 55px!important;
+    text-align: center!important;
+    text-transform: uppercase!important;
+    margin-bottom: 3%;
+}
+
+#portafolio .main {
+  max-width: 1000px;
+  margin: auto;
+}
+#portafolio H2 {
+  font-size: 25px;
+  word-break: break-all;
+  
+}
+#portafolio .row {
+  margin: 10px -16px;
+}
+#portafolio .row,
+.row > .column {
+  padding: 8px;
+}
+#contactame{
+	background-image: url("../img/contactame.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:auto;
+	color: #fff;
+	padding: 5% 0;
+
+}
+
+#portafolio .column {
+  float: left;
+  width: 25%;
+  display: none; 
+}
+#portafolio a {
+ color:#fff;
+}
+#portafolio .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea,
+fieldset {
+  background-color:rgba(215,215,215,0.50);
+  width : 100%;
+  border: 1px solid #333;
+  box-sizing: border-box;
+}
+
+input,textarea:invalid:required {
+  background-color:rgba(215,215,215,0.50);
+}
+
+input,textarea:valid {
+  border: 1px solid black;
+    background-color:rgba(215,215,215,0.50);}
+
+#portafolio .content img{
+  background-color: white;
+  padding: 10px;
+  	width: 100%!important;
+	height: auto!important;  
+}
+#portafolio .content h4{
+margin: 5px 10px;
+text-align:center;
+
+}
+#portafolio .show {
+  display: block;
+}
+#portafolio .btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+#portafolio .btn:hover {
+  background-color: #ddd;
+}
+#portafolio .btn.active {
+  background-color: #666;
+  color: white;
+}
+#sec-about{
+	background-color: aliceblue;
+	}
+
+#sec-about article h4{
+	font-size: 18px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+	margin-top: 30px;
+	letter-spacing: 1px;
+	font-weight: 700;
+	color: #333333;	
+	
+	}
+#sec-about .btn{
+	margin-top: 30px;
+	padding: 10px 20px;
+	border-radius: 0px;
+	border-color: #FFFFFF;
+	text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+	padding-top: 1%;
+	background-color: #2B2F33;
+    color: #fff!important;
+}
+footer #info h3{
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+	color: #fff;
+}
+footer #copy{
+	border-top: 1px solid #ddd;
+	text-align: center;
+	padding: 5px 0;
+}
+footer #info a{
+	color: #303132;
+}
+
+
+footer ul{
+	color: #fff;
+
+}
+footer a{
+	color: #fff!important;
+   
+}
+#soporte h2{
+	text-align:center;
+	margin-bottom:5%;
+    Color:#000;
+}
+
+
+#soporte{
+	background-color: #fff;
+	text-align: center;
+}
+#soporte article{
+	Margin-top:10px;
+}
+
+#soporte h3{
+	color: #000;
+	font-size: 18px;
+    font-family: "Agenda Bold";
+	margin-top: 15px;
+}
+#soporte p{
+	font-size: 16px;
+    color: #000;
+}
+
+
+#soporte i{
+	font-size: 32px;
+	color: #000;
+text-align: center;
+}
+
+#soporte .row{
+	margin-bottom: 3%;
+}
+
+
